@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Style */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+}
+.space{
+    justify-content: space-between;
+}
+body{
+    background-color: white;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+.center{
+    text-align: center;
+}
+/* header */
+header{
+    margin-bottom: 50px;
+    color: white;
+    background: linear-gradient( to right, rgba(83,151,228,0.7), rgba(140,243,146,0.7)),url(../media/home-bg.jpg) no-repeat ;
+}
+.header-info{
+    padding-top: 30px;
+    padding-bottom: 250px;
+}
+h1{
+    letter-spacing: -1px;
+    font-size: 24px;
+}
+ nav a{
+    color: white;
+}
+.nav1 li{
+    font-weight: 400;
+   margin-right: 30px;
+}
+.btn1{
+    color: white;
+    background-color: rgb(207,55,50);
+    border: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+h2{
+    font-size: 42px;
+   padding-bottom: 20px;
+}
+.btn2{
+    color: white;
+    background-color:rgba(158, 205, 247, 0.1);
+    border: 2px solid white;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+.div2{
+    padding-bottom: 340px;
+}
+.vedio{
+    margin-bottom: 280px;
+    margin-right: 80px;
+}
+/* main */
+/* section1 */
+.heading3{
+    font-size: 32px;
+}
+.square{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 8px;
+    height: 8px;
+    background-color:rgb(216,216,216);
+}
+p{
+    /* margin-top: 10px; */
+    color: rgb(138,138,138);
+}
+.para1{
+    margin-bottom: 10px;
+}
+.image1{
+    width: 350px;
+}
+img{
+    width: 100%;
+}
+/* section2 */
+.section2{
+   height: 700px;
+    background-color: rgb(239,239,239);
+}
+.square-center{
+    display: flex;
+    margin: 10px 545px;
+}
+h5{
+    
+    font-size: 30px;
+}
+.box{
+    border-radius: 3px;
+    background-color: white;
+}
+.figure1{
+    margin-right: 50px;
+    width: 250px;
+}
+.btn3{
+    margin-top: 10px;
+    padding: 10px 22px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(239,239,239);
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    margin-right: 30px;
+}
+h6{
+   margin: 10px 0;
+}
+.box1-info{
+    margin-right:30px;
+    margin-top: 20px;
+}
+time{
+    color: rgb(222,114,115);
+}
+time a{
+    color:rgb(222,114,115);
+}
+.row1{
+    margin-bottom: 30px;
+}
+.figure2{
+    width: 25%;
+}
+.image2{
+    padding: 20px ;
+}
+.section3{
+    margin-bottom: 50px;
+}
+/* section4 */
+.section4{
+    height: 500px;
+    background: linear-gradient( to right, rgb(19,119,229),rgb(124,241,100));
+}
+/* section5 */
+.section5{
+    /* height: 400px; */
+    background: linear-gradient(to right,rgb(66,66,66),rgb(0,0,0));
+}
+.hydro{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.white{
+    color: white;
+}
+.white p{
+    color: white;
+}
+.footer a{
+    padding-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.footer{
+    padding-top: 40px;
+}
+.list1 li{
+    padding: 20px 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   border-radius: 10px;
+    background-color: white;
+}
+
+.iframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
